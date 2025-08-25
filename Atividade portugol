@@ -1,0 +1,15 @@
+Questão 1:
+inteiro x, y
+x = 19
+y = 11
+escreva (x + y)
+
+Questão 2:
+inteiro x, y
+x = 10
+y = 2
+escreva (x + y, "\n")
+escreva (x - y, "\n")
+escreva (x * y, "\n")
+escreva (x / y)
+
