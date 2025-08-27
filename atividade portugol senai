@@ -1,0 +1,78 @@
+Questão 1:
+inteiro x, y
+x = 19
+y = 11
+escreva (x + y)
+
+Questão 2:
+inteiro x, y
+x = 10
+y = 2
+escreva (x + y, "\n")
+escreva (x - y, "\n")
+escreva (x * y, "\n")
+escreva (x / y)
+
+Questão 3:
+real distancia_Total, combustivel_Gasto
+distancia_Total = 105.50
+combustivel_Gasto = 50.0
+escreva ("distancia_Total percorrida: ")
+leia (distancia_Total)
+escreva ("combustivel_Gasto no trajeto: ")
+leia (combustivel_Gasto)
+escreva ("O consumo médio do automóvel foi: ", distancia_Total / combustivel_Gasto)
+
+Questão 4:
+inteiro salario, vendas, comissao
+salario = 6000
+vendas = 15000
+comissao = 15 % 100
+escreva("Luiz Fernando vende notebooks.", "\n")
+escreva("Seu salário fixo é de 6000 R$.","\n")
+escreva("Ele teve 15000 reais em vendas no mês e cada notebook custa 2000 então", "\t")
+escreva("sua comissão é: ", 15000 * 15 / 100, "\n")
+escreva ("O seu salário líquido final do mês é: ", 15000 * 15 / 100 + 6000)
+
+Questão 5:
+real Prova1, Prova2, Prova3
+Prova1 = 6.5 
+Prova2 = 8.8
+Prova3 = 7.2
+escreva ("No final do semestre Marta obteve média igual a: ", (Prova1 + Prova2 + Prova3 / 3))
+
+Questão 6:
+//Transforme A em B, para que A seja B e B seja A.
+inteiro A, B, C
+escreva("Digite o valor de A: ")
+leia (A)
+escreva("Digite o valor de B: ")
+leia (B)
+C = A
+A = B
+B = C
+//Faça a troca de valores e declare o valor de A e B
+escreva("Digite o valor de A: ")
+escreva (A, "\n")
+escreva("Digite o valor de B: ")		
+escreva (B)
+
+Questão 7:
+real geladeira_Celsius = 3.0
+real geladeira_Fahrenheit
+escreva ("A temperatura atual da geladeira de Marta está em: 3°C ", "\n")
+escreva ("A temperatura da geladeira de Marta está em: ", (geladeira_Celsius * 9 / 5) + 32, "°F")
+
+Questão 8:
+// Faça um algoritmo que efetue a apresentação do valor do dolar para o real
+real dolar
+real reais
+real Fernando = 5200.00
+dolar = 5.42
+escreva ("Fernando quer transformar uma quantia em dolar para o real;", "\n")
+escreva ("Fernando vai transformar: ")
+leia (reais) 
+escreva ("O dolar em reais hoje está: ") 
+leia (dolar)
+escreva ("Fernando vai ter a quantia de: ", Fernando * dólar, " R$")
+//solicite o valor da cotação do dolar e a quantidade de dólares disponíveis com a pessoa	
